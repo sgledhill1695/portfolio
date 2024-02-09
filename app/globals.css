@@ -2,32 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: DM-Sans-Bold;
+    src: url('../public/fonts/dm-sans/DMSans-Bold.ttf');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: DM-Sans-Medium;
+    src: url('../public/fonts/dm-sans/DMSans-Medium.ttf');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: Inter-Medium;
+    src: url('../public/fonts/inter/Inter-Medium.ttf');
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    font-family: DM-Sans-Bold
+}
+
+
+h2 {
+    font-family: DM-Sans-Bold;
+}
+
+h3 {
+    font-family: DM-Sans-Medium;
+    font-size: 16px;
+}
+
+.navigation{
+    font-family: DM-Sans-Bold;
+}
+
+body{
+    font-family: Inter-Medium;
+    font-size: 15px;
+}
+
+.sans{
+    font-family: DM-Sans-Medium;
+}
+
+.sans-bold {
+    font-family: DM-Sans-Bold;
+}
+
+
+.mid-white{
+    color: #C4C4C4;
+}
+
+.main-text{
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.svg-move {
+    position: relative;
+    bottom: 3px;
+    animation: moveSvg 0.1s linear;
+}
+
+@keyframes moveSvg {
+    from {
+        bottom: 0px;
+    }
+
+    to {
+        bottom: 3px;
+    }
+}
+
+.nav-unactive {
+    width: 42px;
+    animation: unactivateNav 0.2s ease-in;
+}
+
+.nav-active {
+    width: 70px;
+    animation: activateNav 0.2s ease-in;
+}
+
+@keyframes activateNav {
+    from {
+        width: 42px;
+    }
+
+    to {
+        width: 70px;
+    }
+}
+
+@keyframes unactivateNav {
+    from {
+        width: 70px;
+    }
+
+    to {
+        width: 42px;
+    }
 }
