@@ -30,7 +30,7 @@ export default function Website({imgSrc, imgAlt, title, content, stack, href, co
                 </a>
 
                 <div>
-                    <a href={href}>
+                    <a href={href} target="_blank">
                         <h3 className="ms-2 sans flex items-center gap-2 relative">
                             <span 
                                 className={`${hovered ? 'text-[#5EEAD4]' : 'text-[white]'} hover:cursor-pointer`} 
