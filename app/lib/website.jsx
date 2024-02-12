@@ -31,7 +31,7 @@ export default function Website({imgSrc, imgAlt, title, content, stack, href, co
 
                 <div>
                     <a href={href} target="_blank">
-                        <h3 className="ms-2 sans flex items-center gap-2 relative">
+                        <h3 className="md:ms-2 sans flex items-center gap-2 relative">
                             <span 
                                 className={`${hovered ? 'text-[#5EEAD4]' : 'text-[white]'} hover:cursor-pointer`} 
                                 onMouseEnter={() => setHovered(true)}
@@ -49,11 +49,11 @@ export default function Website({imgSrc, imgAlt, title, content, stack, href, co
                         </h3>
                     </a>
 
-                    <p className='text-[#C4C4C4] ms-2 text-[14px]'>
+                    <p className='text-[#C4C4C4] md:ms-2 text-[14px]'>
                         {content}
                     </p>
 
-                    <p className='ms-2 text-[#C4C4C4] mt-2 text-[14px] flex gap-2 items-center mb-2'>
+                    <p className='md:ms-2 text-[#C4C4C4] mt-2 text-[14px] flex gap-2 items-center mb-2'>
 
                         {codeHref && (
                             <>

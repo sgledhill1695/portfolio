@@ -52,7 +52,7 @@ export default function About({navigation, setNavigation}){
     return(
         <section ref={ref} className='mt-[50px] md:mt-[0px]'>
 
-            <h2 className='md:hidden text-[white] text-[15px] mb-[30px] tracking-widest'>ABOUT</h2>
+            <h2 className='md:hidden text-[white] text-[15px] mb-[30px] tracking-widest border-l-[4px] md:border-l-[0px] border-[#5EEAD4] ps-2 md:ps-0'>ABOUT</h2>
 
 
             <p className="text-[#C4C4C4] mb-5 main-text">

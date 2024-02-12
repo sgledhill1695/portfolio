@@ -34,7 +34,7 @@ export default function Experience({navigation, setNavigation}){
     
     return(
         <>
-            <h2 className=' text-[white] text-[15px] tracking-widest mb-[30px]'>EXPERIENCE</h2>
+            <h2 className=' text-[white] text-[15px] mb-[30px] tracking-widest border-l-[4px] md:border-l-[0px] border-[#5EEAD4]  ps-2 md:ps-0'>EXPERIENCE</h2>
 
             <section className="flex flex-col gap-[55px] md:gap-[40px]" ref={ref}>
     
