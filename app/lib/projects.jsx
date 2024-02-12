@@ -131,7 +131,7 @@ export default function Projects({navigation, setNavigation}){
     return(
         <>
 
-            <h2 className='md:hidden text-[white] text-[15px] mb-[35px] tracking-widest'>PROJECTS</h2>
+            <h2 className='text-[white] text-[15px] mb-[35px] tracking-widest'>PROJECTS</h2>
 
             <section className="flex flex-col md:pb-[80px] gap-[60px]" ref={ref}>
 
