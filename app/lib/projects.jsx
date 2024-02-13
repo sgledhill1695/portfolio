@@ -79,9 +79,8 @@ export default function Projects({navigation, setNavigation}){
                 'Tailwind CSS'
             ],
             href: '',
-            frontEndCode: 'https://github.com/sgledhill1695/Pharma-Dispatch-Frontend',
-            backendCode: 'https://github.com/sgledhill1695/Pharma-Dispatch-Backend'
-
+            videoEmbed: true,
+            embed: <iframe width="100%" height="315" src="https://www.youtube.com/embed/RoNZtDB6P0A?si=oZxmaso-cG89ASb_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         },
         {
             id: 6,
@@ -147,6 +146,8 @@ export default function Projects({navigation, setNavigation}){
                         codeHref={site.codeHref}
                         frontendCode={site.frontEndCode}
                         backendCode={site.backendCode}
+                        videoEmbed={site.videoEmbed}
+                        embed={site.embed}
                     />
                 ))};
 
