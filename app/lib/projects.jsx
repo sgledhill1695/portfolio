@@ -19,6 +19,23 @@ export default function Projects({navigation, setNavigation}){
         },
         {
             id: 2,
+            imgSrc: "/images/gdp.png",
+            imgAlt: 'Image of the gdp application',
+            title: 'Pharmaceutical Dispatch Web App',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            stack: [
+                'Next JS',
+                'Laravel',
+                'MySQL',
+                'Tailwind CSS'
+            ],
+            href: '',
+            videoEmbed: true,
+            embed: <iframe width="100%" height="315" src="https://www.youtube.com/embed/RoNZtDB6P0A?si=oZxmaso-cG89ASb_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        },
+
+        {
+            id: 3,
             imgSrc: "/images/invoice.png",
             imgAlt: 'Image of Invoice Web App',
             title: 'Invoicing Web App',
@@ -35,7 +52,7 @@ export default function Projects({navigation, setNavigation}){
             backendCode: 'https://github.com/sgledhill1695/Invoice-app-backend',
         },
         {
-            id: 3,
+            id: 4,
             imgSrc: "/images/zebrafish.png",
             imgAlt: 'Image of the Zebrafish website',
             title: 'Zebrafish',
@@ -53,7 +70,7 @@ export default function Projects({navigation, setNavigation}){
         },
 
         {
-            id: 4,
+            id: 5,
             imgSrc: "/images/igpm.png",
             imgAlt: 'Image of the IGPM website',
             title: 'IGPM',
@@ -65,22 +82,6 @@ export default function Projects({navigation, setNavigation}){
             href: 'https://igpm.sg-webdesign.co.uk/',
             codeHref: 'https://github.com/sgledhill1695/IGPM'
 
-        },
-        {
-            id: 5,
-            imgSrc: "/images/gdp.png",
-            imgAlt: 'Image of the gdp application',
-            title: 'Pharmaceutical Dispatch App',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
-            stack: [
-                'Next JS',
-                'Laravel',
-                'MySQL',
-                'Tailwind CSS'
-            ],
-            href: '',
-            videoEmbed: true,
-            embed: <iframe width="100%" height="315" src="https://www.youtube.com/embed/RoNZtDB6P0A?si=oZxmaso-cG89ASb_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         },
         {
             id: 6,
