@@ -72,7 +72,7 @@ export default function Home(){
                         />
                     </div>
 
-                    <div className="pt-[50px]" id="projects">
+                    <div className="pt-[50px] md:pt-[100px]" id="projects">
                         <Projects
                             navigation={navigation}
                             setNavigation={setNavigation}
