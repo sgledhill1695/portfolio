@@ -40,16 +40,18 @@ export default function Experience({navigation, setNavigation}){
     
                 <div>
                     <div className="flex items-center">
-                        <span className="text-[#828488] text-[14px]">2020 - Present -  </span>
+                        <span className="text-[#828488] text-[14px]">2022 - Present -  </span>
                         <h3 className="text-[white] ms-2 sans">Junior Web Developer</h3>
                     </div>
-    
+
+                    <p className="text-[#828488] text-[14px]">Dene Healthcare</p>
+
                     <p className="pt-[12px] mid-white text-[14px] leading-[22px]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta ratione unde error dolorum cumque eos a voluptatem, facilis sequi sed id similique nisi aliquid nobis praesentium ad minus natus?
+                        Build and style front-end websites for clients within the NHS. Liaise with clients to achieve their desired website functionality. Develop and maintain web applications that help streamline day to day operations accross various sectors within the organisation.
                     </p>
     
                     <div className="flex items-center gap-[8px] pt-[15px] flex-wrap">
-                        <Pill title={'Javascript'} />
+                        <Pill title={'JavaScript'} />
                         <Pill title={'Next JS'}/>
                         <Pill title={'PHP'} />
                         <Pill title={'Laravel'} />
@@ -63,18 +65,21 @@ export default function Experience({navigation, setNavigation}){
     
                 <div>
                     <div className="flex items-center">
-                        <span className="text-[#828488] text-[14px]">2019 - 2020 -  </span>
+                        <span className="text-[#828488] text-[14px]">2021 - 2022 -  </span>
                         <h3 className="text-[white] ms-2 sans">Digital Development</h3>
                     </div>
+                    
+                    <p className="text-[#828488] text-[14px]">Dene Healthcare</p>
+
     
                     <p className="pt-[12px] mid-white text-[14px] leading-[22px]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta ratione unde error dolorum cumque eos a voluptatem, facilis sequi sed id similique nisi aliquid nobis praesentium ad minus natus?
+                        Set up and construct client WordPress websites. Manage and maintain WordPress websites for over 150 clients. Work with clients to implement changes and improvements to WordPress websites. Set up and manage client web servers. Learn and develop skills with HTML, CSS and numerous programming languages.
                     </p>
     
                     <div className="flex items-center gap-[8px] pt-[15px] flex-wrap">
                         <Pill title={'HTML'} />
                         <Pill title={'CSS'} />
-                        <Pill title={'Javascript'} />
+                        <Pill title={'JavaScript'} />
                         <Pill title={'WordPress'} />
                     </div>
                 </div>

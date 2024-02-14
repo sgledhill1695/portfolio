@@ -9,7 +9,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/audiophile.png",
             imgAlt: 'Image of Audiophile website',
             title: 'Audiophile',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            content: 'A shop front-end to advertise and sell audio peripherals.',
             stack: [
                 'Next JS',
                 'Tailwind CSS'
@@ -22,7 +22,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/gdp.png",
             imgAlt: 'Image of the gdp application',
             title: 'Pharmaceutical Dispatch Web App',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            content: 'Developed for Dene Healthcare. This web application uses a weather API to check if the temperature at a  delivery location is safe for the delivery of pharmaceuticals. The back-end is an API built in Laravel.',
             stack: [
                 'Next JS',
                 'Laravel',
@@ -39,7 +39,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/invoice.png",
             imgAlt: 'Image of Invoice Web App',
             title: 'Invoicing Web App',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            content: 'A web application for managing invoices. Implements full CRUD, loading skeletons and also includes a light and dark mode. The back-end is an API built with Node JS, Express and Mongoose.',
             stack: [
                 'Next JS',
                 'Node JS',
@@ -56,7 +56,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/zebrafish.png",
             imgAlt: 'Image of the Zebrafish website',
             title: 'Zebrafish',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            content: 'My first project as a junior developer. A website to advertise the digital offering at Dene Healthcare.',
             stack: [
                 'HTML',
                 'CSS',
@@ -74,7 +74,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/igpm.png",
             imgAlt: 'Image of the IGPM website',
             title: 'IGPM',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            content: 'A website I am currently building for the Institute of General Practice Management. Uses a headless WordPress API to pull through some of the content.',
             stack: [
                 'Next JS',
                 'WordPress'
@@ -88,7 +88,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/nightengale.png",
             imgAlt: 'Image of the King Street Surgery website',
             title: 'King Street Surgery',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur delectus ipsum nisi dolore.',
+            content: 'A website for a GP surgery, put together with WordPress.',
             stack: [
                 'WordPress',
             ],

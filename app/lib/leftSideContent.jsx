@@ -11,7 +11,7 @@ export default function LeftSideContent(){
             </h2>
 
             <p className="text-[#C4C4C4] mb-[30px] max-w-[280px] sm:max-w-[300px] text-[15px] main-text">
-                Lorem ipsum dolor sit amet, consect adipisc elit.
+                Developer with a passion for bringing UX design to life.
             </p>
 
         </>

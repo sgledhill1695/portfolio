@@ -54,18 +54,17 @@ export default function About({navigation, setNavigation}){
 
             <h2 className='md:hidden text-[white] text-[15px] mb-[30px] tracking-widest border-l-[4px] md:border-l-[0px] border-[#5EEAD4] ps-2 md:ps-0'>ABOUT</h2>
 
-
             <p className="text-[#C4C4C4] mb-5 main-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate.
+                Hi, I'm Sam. In 2021 I tried my hand at coding, and since then I haven't been able to stop. Today, I am a junior full-stack developer working within the NHS.
             </p>
 
             <p className="text-[#C4C4C4] mb-5 main-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate.
+                I currently design and build front-end websites and web applications for Dene Healthcare. My passion is taking a good design and making it reality.
+                With over 2 years experience, my skillset includes HTML, CSS, JavaScript and PHP. I also have experience with a number of frameworks such as React, Next JS, and Laravel.
             </p>
 
-            <p className="text-[#C4C4C4] main-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate.
+            <p className="text-[#C4C4C4] mb-5 main-text">
+                When I'm not turning 0 and 1's into websites, I'm often out walking in the Yorkshire Dales, biking, hanging out with friends or tinkering in the garage.         
             </p>
 
         </section>
