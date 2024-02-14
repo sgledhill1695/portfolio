@@ -14,7 +14,7 @@ export default function Projects({navigation, setNavigation}){
                 'Next JS',
                 'Tailwind CSS'
             ],
-            href: 'https://audiophile.sg-webdesign.co.uk/',
+            href: 'https://audiophile.sgdeveloper.co.uk/',
             codeHref: 'https://github.com/sgledhill1695/Audiophile'
         },
         {
@@ -47,7 +47,7 @@ export default function Projects({navigation, setNavigation}){
                 'Express',
                 'Mongo DB'
             ],
-            href: 'https://invoice.sg-webdesign.co.uk/',
+            href: 'https://invoice.sgdeveloper.co.uk/',
             frontEndCode: 'https://github.com/sgledhill1695/Invoice-app-frontend',
             backendCode: 'https://github.com/sgledhill1695/Invoice-app-backend',
         },
@@ -79,7 +79,7 @@ export default function Projects({navigation, setNavigation}){
                 'Next JS',
                 'WordPress'
             ],
-            href: 'https://igpm.sg-webdesign.co.uk/',
+            href: 'https://igpm.sgdeveloper.co.uk/',
             codeHref: 'https://github.com/sgledhill1695/IGPM'
 
         },
