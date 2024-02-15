@@ -22,7 +22,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/gdp.png",
             imgAlt: 'Image of the gdp application',
             title: 'Pharmaceutical Dispatch Web App',
-            content: 'Developed for Dene Healthcare. This web application uses a weather API to check if the temperature at a  delivery location is safe for the delivery of pharmaceuticals. The back-end is an API built in Laravel.',
+            content: 'Developed for Dene Healthcare. This web application uses a weather API to check if the temperature at a  delivery location is safe for the delivery of pharmaceuticals. The back-end is an API built with Laravel.',
             stack: [
                 'Next JS',
                 'Laravel',
@@ -39,7 +39,7 @@ export default function Projects({navigation, setNavigation}){
             imgSrc: "/images/invoice.png",
             imgAlt: 'Image of Invoice Web App',
             title: 'Invoicing Web App',
-            content: 'A web application for managing invoices. Implements full CRUD, loading skeletons and also includes a light and dark mode. The back-end is an API built with Node JS, Express and Mongoose.',
+            content: 'A web application for managing invoices. Implements full CRUD, loading skeletons, infinite scroll pagination and also includes a light and dark mode. The back-end is an API built with Node JS, Express and Mongoose.',
             stack: [
                 'Next JS',
                 'Node JS',
