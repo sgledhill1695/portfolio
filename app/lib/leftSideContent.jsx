@@ -7,7 +7,7 @@ export default function LeftSideContent(){
             </h1>
 
             <h2 className="text-[#E2E8F0] text-[22px]">
-                Jr full stack developer
+                Full stack developer
             </h2>
 
             <p className="text-[#C4C4C4] mb-[30px] max-w-[280px] sm:max-w-[300px] text-[15px] main-text">
